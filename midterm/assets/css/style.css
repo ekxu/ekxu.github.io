@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    background: #F9FAFA;
+    font-family: 'Inika', 'Alata', 'Barlow';
+}
+ 
+header{
+    background: #F9FAF4;
+    font-family: Alata, sans-serif;
+    height: 100px;
+    padding: 30px
+}
+
+
+/* NavBar */
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+
+#logo {
+    margin-top: 22px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 80px;
+}
+
+nav a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#order-button {
+    text-decoration: none;
+    border: light;
+    border-style: solid;
+    color: black;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+/* Landing */
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.photo {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 240px;
+}
+
+.text{
+    font-family: Alata, sans-serif;
+    font-size: 46px;
+    letter-spacing: 15px;
+    margin: 0px;
+}
+
+/* Info Section */
+
+#info {
+    background: #EFF0E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box2 {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+.caption1 {
+    font-family: Alata, sans-serif;
+    font-size: 14px;
+}
+
+.caption1--delicious{
+    margin-top: 30px;
+}
+
+.caption2{
+    font-family: Inika;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.caption25{
+    font-family: Inika;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* Favorite Dishes */
+#dishes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.favcaption {
+    font-family: Alata;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.favimg {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.favpic{
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 220px;
+}
+
+/* Homepage Menu */
+
+#part-menu {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+
+.view-button {
+    position: absolute;
+    bottom: 0px;
+    transform: translate(910%, -300%);
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.view-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.view-button:visited{
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Order Online */
+
+#order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box5 {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+.online {
+    font-family: Inika;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.order-online{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skip {
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+#footer {
+    background: #EFF0E7;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.big-box6 {
+    font-family: Alata, sans-serif;
+    font-size: 14px;
+    margin: 20px 80px 40px 80px;
+}
+.socials{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.icon{
+    margin: 40px 3px 20px 10px;
+    height: 28px;
+}
+
+/* Menu Page */
+
+.menu {
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-bottom: 80px;;
+}
+
+
