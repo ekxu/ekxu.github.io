@@ -1,0 +1,97 @@
+body{
+    font-family: 'Urbanist', 'Kanit', 'Kumbh Sans', 'Playfair Display';
+    margin: 0;
+}
+
+header{
+    font-family: 'Kanit';
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #D4B497;
+}
+
+/* Nav Bar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: block;
+    margin-left: 200px;
+}
+
+#logo {
+    margin: 22px 200px 30px 100px;
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 80px;
+}
+
+nav a{
+    color: #634436;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Scroll Bar */
+
+.scrollbar{
+    float: right;
+    width: 100px;
+    height: 640px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: #262626;
+}
+
+/* Dog Facts */
+
+.dog-facts{
+    position: relative;
+    height: 640 px;
+}
+
+.corgi{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.dash{
+    position: relative;
+    top: -385px;
+    left: 130px;
+}
+
+.lab{
+    position: relative;
+    bottom: 870px;
+    left: 163px;
+}
+
+.shiba{
+    position: relative;
+    bottom: 1355px;
+    left: 134px;
+}
