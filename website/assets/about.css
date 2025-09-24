@@ -93,7 +93,7 @@
     cursor: pointer;
   }
   
-  .resume-btn {
+  /* .resume-btn {
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
@@ -116,7 +116,7 @@
     background: rgb(0, 0, 0);
     color: white;
     border: rgb(0, 0, 0) 2px solid;
-  }
+  } */
   
   .logo {
     font-weight: 500;
